@@ -7,6 +7,9 @@ body{
 	margin: 0 auto;
 }
 
+.clear-fix{
+	clear: both;
+}
 
 /*HEAD*/
 
@@ -14,7 +17,6 @@ body{
 	background-color: #305673;
 	width: 100%;
 	height: 100px;
-
 }
 .header h1{
 	font-family: serif;
@@ -27,10 +29,19 @@ body{
 .header nav{
 	padding-top: 26px;
 	padding-left: 40px;
+
 }
 .header nav a{
 	text-decoration: none;
 	color: white;
+}
+.account {
+	margin-right: 40px;
+}
+.account a{
+	float: right;
+	padding-right: 20px;
+
 }
 .hero{
 	width: 100%;
@@ -57,7 +68,111 @@ body{
 	width: 100%;
 	height: 1000px;
 }
+.content h1{
+	color: #305673;
+	padding: 40px;
+	margin: 0;
+}
+.content h2{
+	color: gray;
+	font-size: 15px;
+	padding: 40px;
+	margin: 0;
 
+}
+.featured{
+	width: 950px;
+	height: 563px;
+	margin: 0 auto;
+}
+.featured .large img{
+	width: 300px;
+	height: 280px;
+	object-fit: cover;
+	float: left;
+}
+.featured .small{
+	width: 140px;
+	height: 280px;
+	float: left;
+	margin-right: 18px;
+}
+.featured .small img{
+	width: 140px;
+	height: 50%;
+	object-fit: cover;
+	display: block;
+}
+.flag{
+	background-color: #305673;
+	opacity: 0.6;
+	width: 229px;
+	height: 50px;
+	position: absolute;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.flag a{
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+}
+.grid {
+	float:left;
+	min-width:465px;
+	margin-top: 10px;
+}
+.daily {
+	width: 950px;
+	height: 140px;
+	margin: 0 auto;
+
+}
+.daily img{
+	float: left;
+	width: 140px;
+	height: 140px;
+	object-fit: cover;
+	margin-right: 18px;
+}
+
+/*INTERIOR*/
+.iphone{
+	width: 240px;
+	height: 298px;
+	margin-left: 40px;
+	position: relative;
+}
+.iphone .photos{
+	float:left;
+	min-width:465px;
+	margin-top: 10px;
+
+}
+.iphone .large img{
+	width: 300px;
+	height: 280px;
+	object-fit: cover;
+	float: left;
+}
+.iphone .small{
+	width: 60px;
+	height: 280px;
+	float: left;
+	
+}
+.iphone .small img{
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	display: block;
+}
+.info{
+	width: 320;
+	float: left;
+	position: relative;
+
+}
 
 /*FOOTER*/
 .footer{
@@ -65,3 +180,31 @@ body{
 	width: 100%;
 	height: 143px;
 }
+.footer h1{
+	color: white;
+	font-family: serif;
+	font-size: 20px;
+	padding: 20px;
+	margin: 0;
+}
+.footer li{
+	text-decoration: none;
+	color: white;
+	list-style: none;
+	padding-left: 20px;
+	font-size: 15px;
+
+}
+.footer p{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 0;
+}
+
+
+
+
+
+
+
