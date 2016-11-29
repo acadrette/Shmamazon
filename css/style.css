@@ -18,6 +18,7 @@ body{
 	width: 100%;
 	height: 100px;
 }
+
 .header h1{
 	font-family: serif;
 	color: white;
@@ -59,8 +60,36 @@ body{
 	height:  94px;
 	background-color: #305673;
 }
+.headerinterior{
+	background-color: #305673;
+	width: 100%;
+	height: 132px;
+}
+.headerinterior h1{
+	font-family: serif;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+	margin: 0;
+}
+.headerinterior nav{
+	padding-top: 26px;
+	padding-left: 40px;
 
+}
+.headerinterior nav a{
+	text-decoration: none;
+	color: white;
+}
+.account {
+	margin-right: 40px;
+}
+.account a{
+	float: right;
+	padding-right: 20px;
 
+}
 
 /*HOME*/
 .content{
@@ -135,17 +164,30 @@ body{
 	object-fit: cover;
 	margin-right: 18px;
 }
+.more {
+	width: 950px;
+	height: 140px;
+	margin-left: 40px;
+
+}
+.more img{
+	float: left;
+	width: 140px;
+	height: 140px;
+	object-fit: cover;
+	margin-right: 18px;
+}
 
 /*INTERIOR*/
 .iphone{
-	width: 240px;
-	height: 298px;
+	width: 100%;
+	height: 460px;
 	margin-left: 40px;
 	position: relative;
 }
 .iphone .photos{
 	float:left;
-	min-width:465px;
+	width: 379px;
 	margin-top: 10px;
 
 }
@@ -154,6 +196,7 @@ body{
 	height: 280px;
 	object-fit: cover;
 	float: left;
+	margin-left: 10px;
 }
 .iphone .small{
 	width: 60px;
@@ -166,14 +209,59 @@ body{
 	height: 60px;
 	object-fit: cover;
 	display: block;
+	margin-bottom: 10px;
 }
 .info{
-	width: 320;
+	width: 300px;
 	float: left;
-	position: relative;
-
 }
-
+.info h1{
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 25px;
+}
+.info .images{
+	width: 300px;
+	height: 60px;
+	margin-left: 10px;
+}
+.info img{
+	float: left;
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+	margin-left: 10px;
+}
+.buy{
+	width: 220px;
+	float: left;
+	margin-left: 20px;
+}
+.buy .button{
+	width: 220px;
+	height: 53px;
+	background-color: #e4b833;
+	float: left;
+}
+.buy .button p{
+	font-size: 20px;
+	text-align: center;
+}
+.buy h3{
+	float: left;
+}
+.buy h2{
+	color: green;
+	float: left;
+	font-size: 15px;
+}
+.buy .options{
+	height: 89px;
+	width: 220px;
+	background-color: white;
+	position:static;
+}
 /*FOOTER*/
 .footer{
 	background-color: #305673;
