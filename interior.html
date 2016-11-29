@@ -12,7 +12,7 @@
 <body>
 	<div class="container">
 		<div class="headerinterior">
-			<h1>SHMAMAZON</h1>
+			<a href="index.html"><h1>SHMAMAZON</h1></a>
 				<div class="account">
 					<a href="cart.html"><img src="images/Shopping-cart.png"></a>
 					<a href="user.html"><img src="images/User1.png"></a>
@@ -24,7 +24,14 @@
 					<a href="orders.html">Orders</a>
 					<a href="contact.html">Contact</a>
 				</nav>	
-		</div>
+
+				<div class="search">
+					<form>
+						<input type="text" placeholder="What are you shopping for today?">
+						<button><img src="images/search.png"></button>
+					</form>
+				</div><!--search-->
+		</div><!--headerinterior-->
 
 
 		
@@ -62,16 +69,25 @@
 
 						<div class="buy">
 							<div class="button">
-							<p>Add To Cart</p>
+							<button type="submit" form="form1" value="Submit">Add To Cart</button>
 							</div>
 
-							<h3>Price: $799.00</h3>
-							<h3>Status: In Stock</h3>
+							<div class="clear-fix">
+							</div>
+
+							<div class="price">
+							Price: <span class="right" style="color:green;"> $799.00</span><br><br>
+							Status: <span class="right" style="color:green;">In Stock</span>
+							</div>
 
 							<div class="clear-fix">
 							</div>
 
 							<div class="options">
+								<form>
+									<input type="checkbox" name="3 year">Include <span style="color:blue;">3 year protection</span> for <span style="color: red;">$9.42</span><br>
+									<input type="checkbox" name="2 year">Include <span style="color:blue;"> 2 year protection</span> for <span style="color: red;">$5.81</span>
+								</form>
 							</div>
 
 							<p>Estimated delivery is two weeks from order date</p>

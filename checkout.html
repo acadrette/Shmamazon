@@ -12,9 +12,9 @@
 <body>
 	<div class="container">
 		<div class="headerinterior">
-			<h1>SHMAMAZON</h1>
+			<a href="index.html"><h1>SHMAMAZON</h1></a>
 				<div class="account">
-					<a href="cart.html"><img src="images/Shopping-cart.png"></a>
+					<a href="checkout.html"><img src="images/Shopping-cart.png"></a>
 					<a href="user.html"><img src="images/User1.png"></a>
 				</div><!--account-->
 			
@@ -24,6 +24,13 @@
 					<a href="orders.html">Orders</a>
 					<a href="contact.html">Contact</a>
 				</nav>	
+
+				<div class="search">
+					<form>
+						<input type="text" placeholder="What are you shopping for today?">
+						<button><img src="images/search.png"></button>
+					</form>
+				</div><!--search-->
 		</div><!--headerinterior-->
 
 
@@ -100,15 +107,19 @@
 				
 			
 				<div class="place">
-					<h1>Place Order</h1>
+					<button type="submit" form="form1" value="Submit">Place Order</button>
 					<p>By placing your order, you agree to Shmamazon's privacy policy and conditions of use</p>
 					<hr>
-					<h1>Order Summary</h1>
-					<p>Items: <br>
-					Shipping and Handling:<br>
-					Tax:<br> </p>
+					
+						<h1>Order Summary</h1>
+						<span class ="left" style="font-size: 12px">Items:</span>
+						<span class="right" style="font-size: 12px">$799.00</span><br>
+						<span class="left" style="font-size: 12px">Shipping and Handling:</span>
+						<span class="right" style="font-size: 12px">$0.00</span><br>
+						<span class="left" style="font-size: 12px">Tax:</span>
+						<span class="right" style="font-size: 12px">$10.85</span><br>
 					<hr>
-					<h1>Total: $809.85</h1><br>
+					<h1>Total: <span style="color:red" class="right" style="font-size: 20px">$809.85</span></h1><br>
 					<p>Estimated delivery for the product is 2 weeks from order date</p>
 				</div><!--place-->
 
