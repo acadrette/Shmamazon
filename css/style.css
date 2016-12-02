@@ -76,6 +76,9 @@ body{
 .search button{
 	width: 61px;
 	height: 41px;
+	position: relative;
+	top: 14px;
+	border-style: none;
 	background-color: #e4b833;
 }
 .search button img{
@@ -84,7 +87,7 @@ body{
 .headerinterior{
 	background-color: #305673;
 	width: 100%;
-	height: 132px;
+	height: 150px;
 }
 .headerinterior h1{
 	font-family: serif;
@@ -119,19 +122,25 @@ body{
 	background-color: #305673;
 	display: inline;
 
+
 }
 .headerinterior .search form{
 	text-align: right;
 	margin-right: 60px;
+	bottom: 10px;
+
 }
 .headerinterior .search input{
 	width: 340px;
 	height:41px;
 	font-size: 15px;
+	margin-top: 0;
 }
 .headerinterior .search button{
 	width: 61px;
 	height: 41px;
+	position: relative;
+	top: 14px;
 	background-color: #e4b833;
 }
 .headerinterior .search button img{
@@ -214,7 +223,7 @@ body{
 .more {
 	width: 950px;
 	height: 140px;
-	margin-left: 40px;
+	margin: 0 auto;
 
 }
 .more img{
@@ -227,16 +236,16 @@ body{
 
 /*INTERIOR*/
 .iphone{
-	width: 100%;
+	width: 950px;
 	height: 460px;
-	margin-left: 40px;
-	position: relative;
+	margin: 0 auto;
 }
 .iphone .photos{
 	float:left;
 	width: 379px;
 	margin-top: 10px;
-
+	margin-top: 10px;
+	
 }
 .iphone .large img{
 	width: 300px;
@@ -261,6 +270,7 @@ body{
 .info{
 	width: 300px;
 	float: left;
+	margin-right: 20px;
 }
 .info h1{
 	padding-right: 0;
@@ -283,7 +293,7 @@ body{
 .buy{
 	width: 220px;
 	float: left;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 .buy button{
 	width: 220px;
@@ -291,6 +301,7 @@ body{
 	background-color: #e4b833;
 	float: left;
 	font-size: 20px;
+	border-style: none;
 }
 .buy .button p{
 	font-size: 20px;
@@ -328,17 +339,20 @@ body{
 
 /*CHECKOUT*/
 .checkout{
-	width: 100%;
+	width: 950px;
 	height: 865px;
+	margin: 0 auto;
 }
 .form{
-	width: 710px;
-	margin-left: 40px;
+	width: 720px;
 	margin-right: 10px;
 	float: left;
 }
+.form form{
+	width: 600px;
+}
 .form .input{
-	margin-left: 120px;
+	margin-left: 60px;
 	margin-top: 10px;
 }
 .form .input img{
@@ -346,9 +360,24 @@ body{
 	height: 40px;
 	margin-right: 10px;
 }
-.form .input input[type=text]{
-	min-width:220px;
-	max-width: 460px;
+.form .input .xsmall input[type=text]{
+	width: 60px;
+	height: 20px;
+	margin-bottom: 10px;
+
+}
+.form .input .small input[type=text]{
+	width:220px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+.form .input .big input[type=text]{
+	width: 450px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+.form .input .med input[type=text]{
+	width: 300px;
 	height: 20px;
 	margin-bottom: 10px;
 }
@@ -384,6 +413,7 @@ body{
 	float: left;
 	font-size: 20px;
 	margin-bottom: 10px;
+	border-style: none;
 }
 .left{
 	float: left;
